@@ -45,24 +45,33 @@ th {
 th {
   background-color: grey;
 }
-.row{
-      display: flex;
-      flex-direction: row;
-      gap: 10px;
-      margin: 10px;
+.row {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  margin: 10px;
 }
 
-.box, .obrazek {
+.box,
+.obrazek {
   width: 100px;
   height: 100px;
   display: block;
   border-radius: 5px;
 }
 
-.czerwony { background-color: #e74c3c; }
-.zielony { background-color: #2ecc71; }
-.niebieski { background-color: #3498db; }
-.fioletowy { background-color: #9b59b6; }
+.czerwony {
+  background-color: #e74c3c;
+}
+.zielony {
+  background-color: #2ecc71;
+}
+.niebieski {
+  background-color: #3498db;
+}
+.fioletowy {
+  background-color: #9b59b6;
+}
 
 .obrazek {
   object-fit: cover;
